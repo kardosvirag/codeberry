@@ -1,22 +1,52 @@
-var allTurbines = 20;
-var turbineCounter = 1;
-var fullSpeedTurbin = 2000;
-var halfSpeedTurbin = 1000;
-var noWorkingTurbin = 0;
-var speed = 0;
+var x = 5;
+var y = 7;
+var sumOfXY = x + y;
 
 
-for(turbineCounter; turbineCounter <= 25; turbineCounter++){
-  if(turbineCounter <= 10){
-    speed += fullSpeedTurbin;
-    console.log(turbineCounter + '. számú szélturbina teljes fordulaton működik,2000 MWh áramot termelve. A farm összteljesítménye jelenleg ' + speed + 'MWh.');
-  }else if(turbineCounter <= 20){
-    speed += halfSpeedTurbin;
-    console.log(turbineCounter + '. számú szélturbina fél fordulaton működik,1000 MWh áramot termelve. A farm összteljesítménye jelenleg ' + speed + 'MWh.');
-  }else if(turbineCounter <= 25){
-    speed += noWorkingTurbin;
-    console.log(turbineCounter + 'számú szélturbina áll, 0 MWh áramot termelve. A farm összteljesítménye jelenleg ' + speed + ' MWh.');
-  }else{
-       console.log('Valami varatlan törtent');
-  }
+console.log(sum(x,y));
+console.log(sum(2,6));
+function sum (a , b){
+  return a + b;
 }
+
+
+
+
+
+
+
+function sumOfSquares (x, y) {
+  var xSquared = x*x;
+  var ySquared = y*y;
+  var sum = xSquared + ySquared;
+  return sum;
+};
+
+var mySum = sumOfSquares (2, 4);
+console.log(mySum);
+
+
+
+
+
+
+
+
+function sumOfSquares (x, y) {
+  return x*x + y*y;
+};
+
+var mySum = sumOfSquares (2, 4);
+console.log(mySum);
+
+
+
+
+
+
+
+function divOfSquares(x,y){
+  return (x * x) / (y * y);
+}
+
+console.log(divOfSquares(6,2));
