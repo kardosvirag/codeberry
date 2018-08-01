@@ -2,10 +2,10 @@ for(i = 1; i < 21; i++){
   if (i == 10){
     console.log(i + ' a legszebb páros szám');
   }else if (i % 2 == 0){
-    console.log(i + ' paros szam');
+    console.log(i + ' paros szám');
   }
   else{
-    console.log(i + ' paratlan szam');
+    console.log(i + ' paratlan szám');
   }
 }
 

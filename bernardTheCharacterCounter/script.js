@@ -1,8 +1,8 @@
 
 
 function bernardTheLetterCounter(){
-var sentence = prompt('Give me a phrase');
-var letter = prompt('Which letter you wanna count?');
+var sentence = prompt('Enter a sentence.');
+var letter = prompt('Which letter would you like to count?');
 var letterCount = 0;
 
   for(var i = 0; i < sentence.length; i++){

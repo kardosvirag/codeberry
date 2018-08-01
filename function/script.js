@@ -11,10 +11,6 @@ function sum (a , b){
 
 
 
-
-
-
-
 function sumOfSquares (x, y) {
   var xSquared = x*x;
   var ySquared = y*y;
@@ -26,22 +22,12 @@ var mySum = sumOfSquares (2, 4);
 console.log(mySum);
 
 
-
-
-
-
-
-
 function sumOfSquares (x, y) {
   return x*x + y*y;
 };
 
 var mySum = sumOfSquares (2, 4);
 console.log(mySum);
-
-
-
-
 
 
 

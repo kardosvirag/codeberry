@@ -17,6 +17,6 @@ for(turbineCounter; turbineCounter <= 25; turbineCounter++){
     speed += noWorkingTurbin;
     console.log(turbineCounter + 'számú szélturbina áll, 0 MWh áramot termelve. A farm összteljesítménye jelenleg ' + speed + ' MWh.');
   }else{
-       console.log('Valami varatlan törtent');
+       console.log('Valami váratlan törtent');
   }
 }
