@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+}
+
+#clock{
+    text-align: center;
+    position: relative;
+    top: calc(50% - 1.5em);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3em;
+    padding: 5% 0;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+}
