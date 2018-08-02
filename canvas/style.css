@@ -1,5 +1,20 @@
+
 #canvas{
-    width: 450px;
-    height: 350px;
-    border: 1px solid #000;
+    width: 550px;
+    height: 300px;
+    border: 1px solid rgb(124, 7, 62);
+    margin-bottom: 10px;
+}
+
+#canvasSecond{
+    width: 550px;
+    height: 300px;
+    border: 1px solid rgb(124, 7, 62);
+    margin-bottom: 10px;
+}
+
+#canvasThird{
+    width: 550px;
+    height: 300px;
+    border: 1px solid rgb(124, 7, 62);
 }
